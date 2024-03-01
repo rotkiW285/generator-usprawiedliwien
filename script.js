@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function () {
         // Update paragraph
         quoteParagraph.textContent = newQuote;
 
-        // Update table
         updateTable();
     }
 
@@ -30,7 +29,43 @@ document.addEventListener('DOMContentLoaded', function () {
             "Z powodu różnych powodów",
             "Choroba psychiczna. Szkoła mnie wykańcza",
             "Zaspałem",
-            "Incydent kałowy"
+            "Incydent kałowy",
+            "Silny ból głowy",
+            "Gorączka i dreszcze",
+            "Ból brzucha i problemy żołądkowe",
+            "Zatrucie pokarmowe",
+            "Alergie",
+            "Migreny",
+            "Awaria samochodu",
+            "Spóźniony pociąg/autobus",
+            "Utrudnienia drogowe",
+            "Brak dostępnych środków transportu",
+            "Zła pogoda uniemożliwiająca podróż",
+            "Awaria domowa (zalanie, pęknięcie rury)",
+            "Pożar",
+            "Wypadek komunikacyjny",
+            "Nagła potrzeba opieki nad członkiem rodziny",
+            "Ważna uroczystość rodzinna",
+            "Pilne spotkanie w pracy",
+            "Potrzeba udzielenia pomocy sąsiadowi",
+            "Kłopoty z opieką nad dzieckiem",
+            "Nagłe wezwanie do urzędu",
+            "Silny stres",
+            "Brak snu",
+            "Ból zęba",
+            "Długi czas oczekiwania w kolejce",
+            "Wezwanie na komisję wojskową",
+            "Zaginięcie dokumentów lub kluczy",
+            "Doświadczenie traumatycznego wydarzenia",
+            "Złamanie kończyny",
+            "Potrzeba załatwienia pilnych formalności",
+            "Nagła wizyta lekarska",
+            "Potrzeba odpoczynku i regeneracji",
+            "Nagła potrzeba opieki nad zwierzęciem",
+            "Uczestnictwo w wolontariacie lub akcji charytatywnej",
+            "Dzień żałoby po stracie bliskiej osoby",
+            "Rozwód",
+            "Zaginięcie dziecka",
         ];
 
         const randomIndex = Math.floor(Math.random() * sampleQuotes.length);
