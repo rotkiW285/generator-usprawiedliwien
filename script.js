@@ -66,6 +66,9 @@ document.addEventListener('DOMContentLoaded', function () {
             "Dzień żałoby po stracie bliskiej osoby",
             "Rozwód",
             "Zaginięcie dziecka",
+            "Badanie laboratoryjne (niechciana ciąża)",
+            "Badanie laboratoryjne (test na ojcostwo)",
+            "Wyjazd do Czech w celu usunięcia ciąży",
         ];
 
         const randomIndex = Math.floor(Math.random() * sampleQuotes.length);
