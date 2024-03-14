@@ -69,6 +69,8 @@ document.addEventListener('DOMContentLoaded', function () {
             "Badanie laboratoryjne (niechciana ciąża)",
             "Badanie laboratoryjne (test na ojcostwo)",
             "Wyjazd do Czech w celu usunięcia ciąży",
+            "Pomoc przy aresztowaniu ojca",
+            "Ratunek babci, ktora zjadła granulat dla królików",
         ];
 
         const randomIndex = Math.floor(Math.random() * sampleQuotes.length);
