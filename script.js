@@ -68,9 +68,15 @@ document.addEventListener('DOMContentLoaded', function () {
             "Zaginięcie dziecka",
             "Badanie laboratoryjne (niechciana ciąża)",
             "Badanie laboratoryjne (test na ojcostwo)",
+            "Obowiązek przybywania na izbie wytrzeźwień",
             "Wyjazd do Czech w celu usunięcia ciąży",
             "Pomoc przy aresztowaniu ojca",
             "Ratunek babci, ktora zjadła granulat dla królików",
+            "Z powodu kontuzji dolnych części ciała",
+            "Wyjazd na akcje ochotniczej straży pożarnej",
+            "Jestem pod wpływem alkoholu (nie jestem alkoholikiem :D)",
+            "pies zjadł mi plecak",
+            "Wizyta w szpitalu psychiatrycznym",
         ];
 
         const randomIndex = Math.floor(Math.random() * sampleQuotes.length);
