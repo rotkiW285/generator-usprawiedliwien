@@ -1,21 +1,34 @@
 document.addEventListener('DOMContentLoaded', function () {
     const generateBtn = document.getElementById('generateBtn');
     const quoteParagraph = document.getElementById('quoteParagraph');
-    const quoteTableBody = document.getElementById('quoteTableBody');
+    const copyBtn = document.getElementById('copyBtn');
 
     let quotes = [];
     let quoteId = 1;
 
+    copyBtn.style.display = 'none';
+
     generateBtn.addEventListener('click', generateQuote);
+    copyBtn.addEventListener('click', copyQuoteToClipboard);
 
     function generateQuote() {
         const newQuote = generateRandomQuote();
         quotes.push({ id: quoteId++, quote: newQuote });
 
-        // Update paragraph
         quoteParagraph.textContent = newQuote;
 
+        copyBtn.style.display = 'block';
+
         updateTable();
+    }
+
+    function copyQuoteToClipboard() {
+        const textarea = document.createElement('textarea');
+        textarea.textContent = quoteParagraph.textContent;
+        document.body.append(textarea);
+        textarea.select();
+        document.execCommand('copy');
+        textarea.remove();
     }
 
     function generateRandomQuote() {
@@ -75,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function () {
             "Z powodu kontuzji dolnych części ciała",
             "Wyjazd na akcje ochotniczej straży pożarnej",
             "Jestem pod wpływem alkoholu (nie jestem alkoholikiem :D)",
-            "pies zjadł mi plecak",
+            "Pies zjadł mi plecak",
             "Wizyta w szpitalu psychiatrycznym",
         ];
 
