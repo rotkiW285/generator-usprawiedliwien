@@ -101,7 +101,8 @@ document.addEventListener('DOMContentLoaded', function () {
             "Rehabilitacja",
             "Pogorszenie stanu zdrowia przewlekłego",
             "Udział w wydarzeniu kulturalnym",
-            "Konieczność uczestnictwa w wydarzeniu religijnym"
+            "Konieczność uczestnictwa w wydarzeniu religijnym",
+            "Jestem na rozprawie w sądzie z prawnikami VULCAN Sp. z o.o."
         ];
 
         const randomIndex = Math.floor(Math.random() * sampleQuotes.length);
