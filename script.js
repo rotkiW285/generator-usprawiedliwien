@@ -102,7 +102,8 @@ document.addEventListener('DOMContentLoaded', function () {
             "Pogorszenie stanu zdrowia przewlekłego",
             "Udział w wydarzeniu kulturalnym",
             "Konieczność uczestnictwa w wydarzeniu religijnym",
-            "Jestem na rozprawie w sądzie z prawnikami VULCAN Sp. z o.o."
+            "Jestem na rozprawie w sądzie przeciwko VULCAN Sp. z o.o.",
+            "Nie wiedziałem o zmianach w planie, bo nie zapłaciłem"
         ];
 
         const randomIndex = Math.floor(Math.random() * sampleQuotes.length);
