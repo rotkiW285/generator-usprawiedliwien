@@ -103,7 +103,8 @@ document.addEventListener('DOMContentLoaded', function () {
             "Udział w wydarzeniu kulturalnym",
             "Konieczność uczestnictwa w wydarzeniu religijnym",
             "Jestem na rozprawie w sądzie przeciwko VULCAN Sp. z o.o.",
-            "Nie wiedziałem o zmianach w planie, bo nie zapłaciłem"
+            "Nie wiedziałem o zmianach w planie, bo nie zapłaciłem",
+            "Gołąp dokonał defekacji na moją głowę"
         ];
 
         const randomIndex = Math.floor(Math.random() * sampleQuotes.length);
