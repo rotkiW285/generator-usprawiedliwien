@@ -110,4 +110,6 @@ document.addEventListener('DOMContentLoaded', function () {
         const randomIndex = Math.floor(Math.random() * sampleQuotes.length);
         return sampleQuotes[randomIndex];
     }
-});
+    generateQuote();
+    }
+);
