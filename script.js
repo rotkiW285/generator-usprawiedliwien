@@ -104,7 +104,8 @@ document.addEventListener('DOMContentLoaded', function () {
             "Konieczność uczestnictwa w wydarzeniu religijnym",
             "Jestem na rozprawie w sądzie przeciwko VULCAN Sp. z o.o.",
             "Nie wiedziałem o zmianach w planie, bo nie zapłaciłem",
-            "Gołąp dokonał defekacji na moją głowę"
+            "Gołąb dokonał defekacji na moją głowę",
+            "Doznałem rewolucji żołądkowej w drodze do placówki oświatowej"
         ];
 
         const randomIndex = Math.floor(Math.random() * sampleQuotes.length);
